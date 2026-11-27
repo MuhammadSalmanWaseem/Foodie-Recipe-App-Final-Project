@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Foodie Recipe App",
+    "slug": "foodie-recipe-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFF8F2"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      ["expo-image-picker", {"photosPermission": "Foodie uses your photos when you add a recipe image."}],
+      ["expo-notifications", {"defaultChannel": "foodie-reminders"}]
+    ],
+    "android": {"package": "com.example.foodiefinalproject"},
+    "ios": {"bundleIdentifier": "com.example.foodiefinalproject"}
+  }
+}
